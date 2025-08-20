@@ -5,7 +5,7 @@
 It allows visitors to explore the restaurant’s story, menu, and gallery, and enables customers to make **online reservations seamlessly**.  
 The frontend is built with **component-based architecture** and styled for **responsive design**.
 
-![Screenshot description](screenshot.png)
+![Screenshot description](sushi_spot_img.png)
 
 
 ## 🛠️ Tech Stack
