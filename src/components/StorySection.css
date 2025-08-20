@@ -1,0 +1,78 @@
+.story-container {
+  background-color: rgba(238, 238, 238, 0.373);
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* vertical center */
+  padding: 50px 120px 50px 120px;
+}
+
+.story-left-side,
+.story-right-side {
+  flex: 1;
+  height: 100%; /* Make it fill parent's height */
+  display: flex;
+  justify-content: center; /* center horizontally */
+  flex-direction: column;
+}
+
+.story-right-side {
+  position: relative; /* needed for absolute positioning inside */
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+}
+
+.story-title {
+  color: rgb(0, 0, 0);
+  font-size: 2.3rem;
+}
+.story-prg {
+  font-size: 1.2rem;
+  color: rgb(71, 71, 71);
+  font-weight: 400;
+}
+.story-right-side img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: -5px 5px 30px rgba(0, 0, 0, 0.5);
+}
+.name-box {
+  position: absolute;
+  bottom: 10%; /* distance from bottom */
+  left: 0; /* distance from left */
+  background-color: rgb(217, 0, 0);
+  color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  white-space: nowrap; /* keep name in one line */
+}
+.name-box h1 {
+  font-size: 1.5rem;
+}
+.name-box h3 {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.name-box h1,
+.name-box h3 {
+  margin: 0; /* remove default margin */
+  padding: 0; /* optional */
+}
+.story-info {
+  display: flex;
+  justify-content: space-around; /* center horizontally */
+  text-align: center; /* center text inside the box */
+}
+.info-box h1 {
+  color: rgb(217, 0, 0);
+}
+.info-box h3 {
+  color: rgb(71, 71, 71);
+  font-size: 1.3rem;
+  font-weight: 300;
+}

@@ -1,0 +1,68 @@
+.footer {
+  background-color: #000000; /* dark background */
+  color: white; /* white text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 120px 50px 120px;
+
+  gap: 30px;
+}
+.prg-bot {
+  color: rgba(182, 182, 182, 0.751);
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: flex-start; /* align columns at the top */
+  gap: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* thin semi-transparent line */
+}
+.j-letter {
+  color: rgb(255, 69, 69);
+}
+
+.sakura {
+  color: white;
+}
+
+.footer-content,
+.footer-links,
+.footer-Contact {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left; /* keep text left aligned */
+}
+
+.footer-content {
+  flex: 2;
+}
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.footer-links a:hover {
+  color: rgb(255, 69, 69);
+}
+.footer h1,
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+.footer h1 {
+  font-size: 1.5rem;
+}
+.footer p {
+  font-weight: 100;
+}
+
+.footer-social-icons-container {
+  display: flex;
+  gap: 20px; /* space between icons */
+  justify-content: start; /* center horizontally */
+  align-items: start; /* center vertically */
+  margin: 20px 0;
+}

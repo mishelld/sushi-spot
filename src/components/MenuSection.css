@@ -1,0 +1,65 @@
+.menu-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* horizontal center */
+  padding: 50px 120px 50px 120px;
+}
+
+.menu-top h1 {
+  color: black;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.menu-top p {
+  color: rgb(55, 55, 55);
+  font-size: 1.2rem;
+}
+.menu-items {
+  display: flex;
+  gap: 40px;
+}
+.menu-item {
+  flex: 1; /* items share equal space */
+
+  padding: 15px 40px;
+  background-color: rgba(240, 240, 240, 0.293);
+  border-radius: 10px;
+}
+.menu-cat-title {
+  border-bottom: 2px solid rgb(217, 0, 0); /* line under category */
+  font-size: 1.5rem;
+  text-align: center;
+}
+.dish {
+  display: flex;
+  justify-content: space-between; /* horizontal center */
+  border-bottom: 1px solid #ddd; /* line under dish */
+}
+.dish:last-child {
+  border-bottom: none; /* remove line after last dish */
+}
+.dish h1 {
+  font-size: 1rem;
+}
+.dish p {
+  font-weight: 100;
+}
+.price {
+  color: rgb(217, 0, 0);
+}
+
+.menu-Reservation-btn {
+  border-radius: 30px;
+  background-color: rgb(217, 0, 0);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  padding: 15px 35px; /*  more height and width */
+}
+.menu-Reservation-btn:hover {
+  background-color: rgb(150, 0, 0);
+}

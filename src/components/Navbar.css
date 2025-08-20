@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* logo left, links right */
+  align-items: center;
+  background-color: #000000cf; /* black background */
+  padding: 5px 80px;
+  position: fixed; /* always on top when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box; /* includes padding inside width */
+  z-index: 1000; /* ensures it stays above other content */
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.japanese-letter {
+  color: rgb(255, 69, 69); /* red color for 桜 */
+}
+
+.sakura-text {
+  color: white;
+  margin-left: 5px; /* small gap between Japanese letter and text */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px; /* space between links */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: rgb(255, 69, 69); /* hover effect */
+}

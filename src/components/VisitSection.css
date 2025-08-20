@@ -1,0 +1,143 @@
+.visit-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 30px 80px 30px;
+}
+.visit-inner-container {
+  display: flex;
+}
+.visit-left-side,
+.visit-right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.visit-right-side {
+  align-items: center;
+  padding: 0 100px 0 0;
+  position: relative;
+}
+.visit-left-side {
+  padding: 0 0 0 100px;
+  gap: 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.icon {
+  color: #d90000; /* red or your preferred color */
+  font-size: 1.5rem;
+  background-color: #ffb7b7a1;
+  border-radius: 50%; /* makes it a circle */
+  padding: 12px; /* space around icon */
+}
+.visit-img-container {
+  position: relative;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+}
+.img-wrapper {
+  position: absolute;
+  bottom: 10px; /* distance from bottom of image */
+  left: 50%; /* move to horizontal center */
+  transform: translateX(-50%); /* perfectly center horizontally */
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+  flex-direction: column;
+}
+.icon-img {
+  color: #ffffff; /* red or your preferred color */
+
+  font-size: 5rem;
+  border-radius: 50%; /* makes it a circle */
+  padding: 12px; /* space around icon */
+}
+.visit-title-img {
+  color: #ffffff; /* red or your preferred color */
+  font-size: 1.2rem;
+}
+.contact-text {
+  display: flex;
+  flex-direction: column;
+}
+.contact-text span:first-child {
+  font-weight: 600; /* or 'bold' */
+  font-size: 1.1rem; /* optional, make it a bit bigger */
+}
+
+.hours {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.day-hours {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.day-hours strong {
+  font-weight: 100;
+}
+
+.day-hours span {
+  font-weight: 400;
+}
+.visit-right-side img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+.visit-left-side h1 {
+  font-size: 1.5rem;
+}
+.visit-title {
+  font-size: 2.3rem;
+  text-align: center;
+}
+.visit-container p {
+  font-size: 1.2rem;
+  color: rgb(71, 71, 71);
+  font-weight: 300;
+}
+.visit-Reservation-box {
+  background-color: #ffb7b73f;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.visit-Reservation-box h1 {
+  font-size: 1rem;
+}
+
+.visit-Reservation-box p {
+  font-size: 1.1rem;
+}
+.visit-btn {
+  border-radius: 30px;
+  background-color: #dd0000;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px 25px; /*  more height and width */
+}
+.visit-btn:hover {
+  background-color: rgb(156, 0, 0);
+}

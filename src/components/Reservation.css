@@ -1,0 +1,112 @@
+/* Modal overlay covers the screen */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(2px); /* subtle blur for modern look */
+}
+
+/* Modal box */
+.modal-content {
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 16px;
+  width: 350px;
+  max-width: 90%;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  animation: fadeInUp 0.35s ease-out;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Modal header */
+.modal-content h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #222;
+  font-size: 1.3rem;
+}
+
+/* Labels */
+.modal-content label {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Inputs & selects – consistent styling */
+.modal-content select,
+.modal-content input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.modal-content select:focus,
+.modal-content input:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  outline: none;
+}
+
+/* Modal buttons */
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.confirm-btn,
+.cancel-btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.confirm-btn {
+  background-color: #28a745;
+  color: white;
+}
+.confirm-btn:hover {
+  background-color: #218838;
+  transform: translateY(-1px);
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+}
+.cancel-btn:hover {
+  background-color: #c82333;
+  transform: translateY(-1px);
+}
+
+/* Smooth fade-up animation */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

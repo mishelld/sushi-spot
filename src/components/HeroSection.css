@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+.hero-container {
+  height: 100vh;
+  background-image: url("../assets/background2.jpg"); /* relative path */
+  background-size: cover; /* cover whole area */
+  background-position: center; /* center image */
+  background-repeat: no-repeat; /* don't repeat */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  flex-direction: column;
+  gap: 20px;
+  z-index: 0;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.512); /* black with 40% opacity */
+  z-index: -1;
+}
+.hero-title {
+  font-size: 5rem;
+}
+
+.japanese-letter {
+  color: rgb(255, 69, 69);
+}
+
+.sakura-text {
+  color: white;
+}
+.hero-sub-title {
+  color: white;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+.hero-pr {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.hero-title,
+.hero-sub-title,
+.hero-pr {
+  margin: 0; /* remove default margin */
+  padding: 0; /* optional */
+}
+.hero-button-container {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  gap: 20px;
+}
+.hero-manu-btn {
+  border-radius: 30px;
+  background-color: #dd0000;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  padding: 15px 35px; /*  more height and width */
+}
+.hero-manu-btn:hover {
+  background-color: rgb(156, 0, 0);
+}
+.hero-Reservation-btn {
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 2px solid white; /* white outer border */
+
+  padding: 15px 35px; /*  more height and width */
+}
+.hero-Reservation-btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
