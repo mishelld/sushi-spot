@@ -17,5 +17,6 @@ It allows visitors to explore the restaurant’s story, menu, and gallery, and e
 
 ## 📸 Image Credits
 
-All images marked as free were sourced from [Freepik](https://www.freepik.com/) and are used according to their Freepik license.
+All images marked as free are Designed by Freepik and sourced from [www.freepik.com](https://www.freepik.com)
+
 
