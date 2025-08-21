@@ -3,7 +3,7 @@
 
 
 This is a demo of a modern full-stack restaurant website built with **React**, **CSS**, **Node.js/Express**, and **MongoDB**.  
-It allows visitors to explore the restaurant’s story, menu, and gallery, and enables customers to make **online reservations**.
+It allows users to explore the restaurant’s story, menu, and gallery, and make **online reservations**.
 
 
 ![Screenshot description](sushi_spot_img.png)
